@@ -96,7 +96,7 @@ class TestUsersAPI:
         assert isinstance(user_data['name'], str)
         assert '@' in user_data['email']  # Basic email validation
         
-        print("✅ GET /users/{id} test passed")
+        print(" GET /users/{id} test passed")
         return user_data
     
     def test_create_user(self):
